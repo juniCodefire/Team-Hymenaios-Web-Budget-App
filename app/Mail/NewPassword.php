@@ -26,4 +26,6 @@ class NewPassword extends Mailable {
 
         return $this->view('emails/recovery-info', compact($user));
     }
+    
 }
+
